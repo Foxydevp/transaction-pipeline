@@ -1,0 +1,26 @@
+# FastAPI
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Database
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.14.0
+
+# Async task queue
+celery[redis]==5.4.0
+redis==5.2.1
+
+# Data processing
+pandas==2.2.3
+
+# Groq LLM
+groq==0.13.1
+
+# Settings & validation
+pydantic==2.10.4
+pydantic-settings==2.7.0
+
+# Utilities
+python-dotenv==1.0.1
